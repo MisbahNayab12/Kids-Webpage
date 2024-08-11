@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Satisfy Regular';
+    src: url('./Fonts/Satisfy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'sweet Cherry';
+    src: url('./Fonts/Sweet\ Cherry.ttf');
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url(./Fonts/Righteous-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mainbox .coverpage {
+    text-align: center;
+    margin: 100px 500px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.mainbox .coverpage .image img{
+    width:300px;
+    height: auto
+}
+
+.firstHeading {
+    font-family: 'Righteous';
+    margin: 10px 0;
+    font-size: 25px;
+    background-color: rgb(83, 104, 6);
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+}
+
+.secondHeading {
+    font-family: 'Satisfy Regular';
+    color: red;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.thirdHeading {
+    font-family: 'sweet Cherry';
+    color: rgb(240, 153, 41);
+    font-size: 40px;
+}
+
+.mainbox .coverpage button{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(6, 107, 121);
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
